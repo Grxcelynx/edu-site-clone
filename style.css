@@ -400,4 +400,153 @@ nav {
     height: 30vh;
   }
 }
+
+.SG3-1 {
+  background-color: #d16391;
+  padding: 5%;
+  color: white;
+}
+
+.SG3-1 h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 1.8em;
+  margin: 10% 0% 3% 0%;
+  text-transform: uppercase;
+}
+
+.SG3-1 h2 {
+  font-family: "lora; serif";
+  font-weight: 200;
+  font-size: 3.5em;
+  margin: 0% 0% 5% 0%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.SG3-1 p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  font-size: 1.3em;
+}
+
+.SG3-2 {
+  background-image: url(./imgs/sec3-g1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5%;
+  color: white;
+}
+
+.SG3-2 h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 1.8em;
+  margin: 10% 0% 3% 0%;
+  text-transform: uppercase;
+}
+
+.SG3-2 h2 {
+  font-family: "lora; serif";
+  font-weight: 200;
+  font-size: 3.5em;
+  margin: 0% 0% 5% 0%;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.SG3-2 p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  font-size: 1.4em;
+}
+
+.SG3-3 {
+  background-image: url(./imgs/sec3-g2.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5%;
+  color: white;
+}
+
+.SG3-3 h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 1.8em;
+  margin: 10% 0% 3% 0%;
+  text-transform: uppercase;
+}
+
+.SG3-3 h2 {
+  font-family: "lora; serif";
+  font-weight: 200;
+  font-size: 3.5em;
+  margin: 0% 0% 5% 0%;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.SG3-3 p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  font-size: 1.3em;
+}
+
+.SG3-4 {
+  background-color: #73546f;
+  padding: 5%;
+  color: white;
+}
+
+.SG3-4 h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 1.8em;
+  margin: 10% 0% 3% 0%;
+  text-transform: uppercase;
+}
+
+.SG3-4 h2 {
+  font-family: "lora; serif";
+  font-weight: 200;
+  font-size: 3.5em;
+  margin: 0% 0% 5% 0%;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.SG3-4 p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  font-size: 1.3em;
+}
+
+@media (min-width: 768px) {
+  .section3 {
+    overflow-x: hidden;
+  }
+  .container2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    grid-gap: 0%;
+    position: relative;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .SG3-1 h2 {
+    font-family: "lora; serif";
+    font-weight: 200;
+    font-size: 3.5em;
+    margin: 0% 0% 5% 0%;
+    text-transform: uppercase;
+    text-align: left;
+  }
+}
 /*# sourceMappingURL=style.css.map */

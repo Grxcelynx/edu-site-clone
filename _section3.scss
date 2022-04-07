@@ -1,0 +1,164 @@
+// .container2 {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr;
+//     grid-template-rows: 1fr 1fr;
+//     grid-gap: 0%;
+//     position: relative;
+//     justify-content: center;
+// }
+
+.SG3-1 {
+    background-color: $pink;
+    padding: 5%;
+    color: $primary;
+}
+
+.SG3-1 h3 {
+    font-family: $Robo;
+    font-weight: 200;
+    font-size: 1.8em;
+    margin: 10% 0% 3% 0%;
+    text-transform: uppercase;
+}
+
+.SG3-1 h2 {
+    font-family: $Serif;
+    font-weight: 200;
+    font-size: 3.5em;
+    margin: 0% 0% 5% 0%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.SG3-1 p {
+    font-family: $Sans;
+    font-weight: 200;
+    font-size: 1.3em;
+}
+
+// END OF SEC 1 OF THIS GRID 
+
+.SG3-2 {
+    background-image: url(./imgs/sec3-g1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    color: $primary;
+}
+
+.SG3-2 h3 {
+    font-family: $Robo;
+    font-weight: 200;
+    font-size: 1.8em;
+    margin: 10% 0% 3% 0%;
+    text-transform: uppercase;
+}
+
+.SG3-2 h2 {
+    font-family: $Serif;
+    font-weight: 200;
+    font-size: 3.5em;
+    margin: 0% 0% 5% 0%;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.SG3-2 p {
+    font-family: $Sans;
+    font-weight: 200;
+    font-size: 1.4em;
+}
+
+// END OF SEC 2 OF THIS GRID 
+
+.SG3-3 {
+    background-image: url(./imgs/sec3-g2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    color: $primary;
+}
+
+.SG3-3 h3 {
+    font-family: $Robo;
+    font-weight: 200;
+    font-size: 1.8em;
+    margin: 10% 0% 3% 0%;
+    text-transform: uppercase;
+}
+
+.SG3-3 h2 {
+    font-family: $Serif;
+    font-weight: 200;
+    font-size: 3.5em;
+    margin: 0% 0% 5% 0%;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.SG3-3 p {
+    font-family: $Sans;
+    font-weight: 200;
+    font-size: 1.3em;
+}
+
+// END OF SEC 3 OF THIS GRID 
+
+.SG3-4 {
+    background-color: $purple;
+    padding: 5%;
+    color: $primary;
+}
+
+.SG3-4 h3 {
+    font-family: $Robo;
+    font-weight: 200;
+    font-size: 1.8em;
+    margin: 10% 0% 3% 0%;
+    text-transform: uppercase;
+}
+
+.SG3-4 h2 {
+    font-family: $Serif;
+    font-weight: 200;
+    font-size: 3.5em;
+    margin: 0% 0% 5% 0%;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.SG3-4 p {
+    font-family: $Sans;
+    font-weight: 200;
+    font-size: 1.3em;
+}
+
+@media (min-width:768px) {
+
+    .section3 {
+        overflow-x: hidden;
+    }
+
+
+    .container2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 0%;
+        position: relative;
+        justify-content: center;
+    }
+
+    .SG3-1 h2 {
+        font-family: $Serif;
+        font-weight: 200;
+        font-size: 3.5em;
+        margin: 0% 0% 5% 0%;
+        text-transform: uppercase;
+        text-align: left;
+    }
+
+
+    }
