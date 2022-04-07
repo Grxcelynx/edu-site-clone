@@ -549,4 +549,163 @@ nav {
     text-align: left;
   }
 }
+
+.section4 {
+  background-image: url(./imgs/sec4.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container3 {
+  color: white;
+  margin: 30% 10% 10% 10%;
+}
+
+.SG4-1 h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 9em;
+  text-align: center;
+}
+
+.SG4-2 h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 10% 20% 5% 0%;
+}
+
+.SG4-2 h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 0% 20% 5% 0%;
+}
+
+.SG4-2 p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  text-align: left;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.SG4-2 button {
+  color: white;
+  background-color: #bf404c;
+  border: none;
+  font-size: 1.3em;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  padding: 4% 8% 4% 8%;
+  margin: 5% 0% 0% 0%;
+}
+
+@media (min-width: 768px) and (max-width: 1199.87px) {
+  .section4 {
+    overflow-x: hidden;
+  }
+  .container3 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 70%;
+        grid-template-columns: 30% 70%;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    grid-gap: 0%;
+    position: relative;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container3 {
+    margin: 10% 10% 10% 0%;
+  }
+  .SG4-1 h1 {
+    position: relative;
+    top: 30%;
+    font-size: 8em;
+  }
+  .SG4-2 h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 10% 10% 5% 0%;
+  }
+  .SG4-2 h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 2.9em;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 0% 0% 5% 0%;
+  }
+  .SG4-2 p {
+    font-size: 1.2em;
+  }
+  .SG4-2 button {
+    font-size: 1em;
+    padding: 3% 10% 3% 10%;
+    margin: 5% 0% 0% 0%;
+  }
+}
+
+@media (min-width: 1199.88px) {
+  .section4 {
+    overflow-x: hidden;
+  }
+  .container3 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 70%;
+        grid-template-columns: 30% 70%;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    grid-gap: 0%;
+    position: relative;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container3 {
+    margin: 10% 10% 10% 0%;
+  }
+  .SG4-1 h1 {
+    position: relative;
+    top: 30%;
+    font-size: 14em;
+    font-weight: 200;
+  }
+  .SG4-2 h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 10% 10% 3% 0%;
+  }
+  .SG4-2 h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 2.7em;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 0% 0% 5% 0%;
+  }
+  .SG4-2 p {
+    font-size: 1.66em;
+  }
+  .SG4-2 button {
+    font-size: 1.3em;
+    padding: 2% 6% 2% 6%;
+    margin: 2% 0% 0% 0%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
