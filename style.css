@@ -17,6 +17,7 @@ nav {
           align-items: center;
   min-height: 8vh;
   background-color: white;
+  overflow-x: hidden;
 }
 
 .logo {
@@ -51,6 +52,7 @@ nav {
 
 .burger {
   display: none;
+  overflow-x: hidden;
 }
 
 .burger div {
@@ -59,6 +61,7 @@ nav {
   color: #f11313;
   background-color: blueviolet;
   margin: 5px;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 1024px) {
@@ -94,12 +97,15 @@ nav {
     transition: -webkit-transform 0.5s ease-in;
     transition: transform 0.5s ease-in;
     transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+    overflow-x: hidden;
+    z-index: 1;
   }
   .navlinks li {
     opacity: 0;
   }
   .burger {
     display: block;
+    overflow-x: hidden;
   }
 }
 
@@ -144,5 +150,42 @@ nav {
 
 .toggle .line3 {
   background-color: brown;
+}
+
+.section1 {
+  background-image: url(./imgs/sec1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 40%;
+  height: 70vh;
+  position: relative;
+}
+
+.section1 div {
+  margin: 0% 10% 10% 10%;
+  position: absolute;
+  bottom: 0%;
+}
+
+.section1 h6 {
+  color: white;
+  font-size: 1.8em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.section1 h1 {
+  color: white;
+  font-size: 4em;
+  font-family: "lora; serif";
+  font-weight: 300;
+  padding: 0% 0% 10% 0%;
+}
+
+.section1 p {
+  color: white;
+  font-size: 1.5em;
 }
 /*# sourceMappingURL=style.css.map */
