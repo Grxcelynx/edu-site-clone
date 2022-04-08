@@ -1,0 +1,126 @@
+.SG5-1 {
+    background-image: url(./imgs/sec5-1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+.SG5-2 {
+    background-color: $purple;
+    padding: 20%;
+}
+
+.SG5-2 h2 {
+    color: $primary;
+    font-size: 2.8em;
+    text-align: center;
+    font-family: $Serif;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.SG5-2 button {
+    color: $primary;
+    background-color: $pink;
+    border: none;
+    font-size: 1.2em;
+    font-family: $Sans;
+    text-transform: uppercase;
+    padding: 4% 8% 4% 8%;
+    margin: 5% 0% 0% 0%;
+    position: relative;
+    justify-items: center;
+    text-align: center;
+    left: 22%;
+}
+
+.SG5-3 {
+    background-image: url(./imgs/sec5-2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    height: 30vh;
+}
+
+.SG5-4 {
+    background-image: url(./imgs/sec5-3.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+.SG5-5 {
+    background-image: url(./imgs/sec5-4.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+@media (min-width:768px) and (max-width:1199.87px){
+    .container5 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 0%;
+        position: relative;
+        justify-content: center;
+    }
+
+    .container5 div {
+        height: 20vh;
+    }
+
+    .SG5-5 {
+        height: 40vh;
+        background-position-y: 68%;
+    }
+}
+
+@media (min-width:1199.88px){
+    .container5 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 0%;
+        position: relative;
+        justify-content: center;
+    }
+
+    .container4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 50vh;
+        grid-gap: 0%;
+        position: relative;
+        justify-content: center;
+    }
+
+    .container5 div {
+        height: 25vh;
+    }
+
+    .SG5-2 {
+        padding: 10%;
+    }
+
+    .SG5-2 h2 {
+        font-size: 2.8em;
+        top: 20%;
+        position: relative;
+    }
+
+    .SG5-2 button{
+        left: 17%;
+        top: 20%;
+        position: relative;
+
+    }
+
+    .SG5-5 {
+        height: 50vh;
+    }
+}
