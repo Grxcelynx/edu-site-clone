@@ -1,0 +1,155 @@
+.SG6-1 {
+    background-color: $red;
+    padding: 10%;
+    color: $primary;
+}
+
+.SG6-1 h3 {
+    font-family: $Robo;
+    font-size: 2em;
+    font-weight: 200;
+    padding: 0;
+    margin: 20% 0% 5% 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.SG6-1 h2 {
+    font-family: $Serif;
+    font-size: 2.6em;
+    font-weight: 200;
+    padding: 0;
+    margin: 0% 0% 5% 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.SG6-1 p {
+    font-family: $Sans;
+    font-size: 1.3em;
+    font-weight: 200;
+    padding: 0;
+    margin: 0% 0% 5% 0%;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+.SG6-2 {
+    background-image: url(./imgs/sec6.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.SG6-2 h1 {
+    font-family: $Robo;
+    font-size: 12em;
+    font-weight: 600;
+    padding: 0;
+    margin: 20% 0% 5% 0%;
+    text-align:center;
+    color: $primary;
+    margin-top: 62%;
+
+}
+
+
+
+
+@media (min-width:768px) and (max-width:1199.87px){
+    .container6{
+        display: grid;
+        grid-template-columns: 35% 65%;
+        grid-template-rows: 50vh;
+        grid-gap: 0%;
+        position: relative;
+        justify-content: center;
+    }
+
+    
+    .SG6-1 h3 {
+        font-size: 1.8em;
+    }
+
+    
+    .SG6-2 {
+        background-image: url(./imgs/sec6.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+    }
+    
+    .SG6-2 h1 {
+        font-family: $Robo;
+        font-size: 10em;
+        font-weight: 600;
+        padding: 0;
+        margin: 20% 0% 5% 0%;
+        text-align:center;
+        color: $primary;
+        margin-top: 62%;
+    
+    }
+
+    .SG6-1 p {
+        font-size: 1.1em;
+        line-height: 1.4em;
+    }
+
+    .SG6-2 h1 {
+        font-size: 10em;
+        position: relative;
+        top: -12%;
+        left: 20%;
+    
+    }
+
+}
+
+@media (min-width:1199.87px){
+    .container6{
+        display: grid;
+        grid-template-columns: 38% 62%;
+        grid-template-rows: 40vh;
+        grid-gap: 0%;
+        position: relative;
+        justify-content: center;
+    }
+
+    .SG6-1 {
+        padding: 0% 7% 0% 20%;
+    }
+    .SG6-1 h3 {
+        font-size: 2em;
+    }
+
+    
+    .SG6-2 {
+        background-image: url(./imgs/sec6.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+    
+    .SG6-1 h2 {
+        font-size: 3.8em;
+    }
+
+    .SG6-1 p {
+        font-size: 1.3em;
+        line-height: 1.6em;
+        margin: 10% 0% 0% 0%;
+    }
+
+    .SG6-2 h1 {
+        font-size: 10em;
+        position: relative;
+        top: -12%;
+        left: 20%;
+    
+    }
+
+}
