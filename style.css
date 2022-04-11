@@ -1,6 +1,6 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   overflow-x: hidden;
@@ -22,9 +22,15 @@ nav {
 
 .logo {
   color: #73546f;
+  background: -webkit-gradient(linear, left top, right top, from(#d16391), color-stop(#bf404c), to(#73546f));
+  background: linear-gradient(to right, #d16391, #bf404c, #73546f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-transform: uppercase;
-  letter-spacing: 5px;
-  font-size: 20px;
+  letter-spacing: .2em;
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 
 .navlinks {
@@ -35,6 +41,8 @@ nav {
       justify-content: space-around;
   width: 30%;
   overflow-x: hidden;
+  background-image: repeating-conic-gradient(#d16391 10%, #73546f 20%);
+  opacity: 0.5;
 }
 
 .navlinks li {
@@ -43,11 +51,11 @@ nav {
 }
 
 .navlinks a {
-  color: #eb0505;
+  color: white;
   text-decoration: none;
-  letter-spacing: 3px;
+  letter-spacing: .2em;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 1.5em;
 }
 
 .burger {
@@ -56,30 +64,33 @@ nav {
 }
 
 .burger div {
-  width: 25px;
+  width: 30px;
   height: 3px;
-  color: #f11313;
-  background-color: blueviolet;
+  background-color: grey;
   margin: 5px;
   overflow-x: hidden;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .navlinks {
     width: 60%;
+    background-image: none;
+  }
+  .navlinks a {
+    color: grey;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   body {
     overflow-x: hidden;
   }
   .navlinks {
     position: absolute;
     right: 0px;
-    height: 92vh;
+    height: 100%;
     top: 8vh;
-    background-color: aqua;
+    background-color: transparent;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -106,6 +117,10 @@ nav {
   .burger {
     display: block;
     overflow-x: hidden;
+  }
+  .logo {
+    letter-spacing: .2em;
+    font-size: 2em;
   }
 }
 
@@ -141,15 +156,15 @@ nav {
 }
 
 .toggle .line1 {
-  background-color: yellow;
+  background-color: #d16391;
 }
 
 .toggle .line2 {
-  opacity: 0;
+  background-color: #73546f;
 }
 
 .toggle .line3 {
-  background-color: brown;
+  background-color: #bf404c;
 }
 
 .section1 {
@@ -891,10 +906,10 @@ nav {
   font-size: 12em;
   font-weight: 600;
   padding: 0;
-  margin: 20% 0% 5% 0%;
+  margin: 55% 0% 0% 0%;
   text-align: center;
   color: white;
-  margin-top: 62%;
+  height: auto;
 }
 
 @media (min-width: 768px) and (max-width: 1199.87px) {
@@ -903,8 +918,8 @@ nav {
     display: grid;
     -ms-grid-columns: 35% 65%;
         grid-template-columns: 35% 65%;
-    -ms-grid-rows: 50vh;
-        grid-template-rows: 50vh;
+    -ms-grid-rows: 35vh;
+        grid-template-rows: 35vh;
     grid-gap: 0%;
     position: relative;
     -webkit-box-pack: center;
@@ -919,27 +934,28 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
+    height: auto;
   }
   .SG6-2 h1 {
     font-family: "Roboto", sans-serif;
     font-size: 10em;
     font-weight: 600;
     padding: 0;
-    margin: 20% 0% 5% 0%;
+    margin: 95% 0% 5% 0%;
     text-align: center;
     color: white;
-    margin-top: 62%;
   }
   .SG6-1 p {
-    font-size: 1.1em;
-    line-height: 1.4em;
+    font-size: 1.2em;
+    line-height: 1.3em;
   }
   .SG6-2 h1 {
     font-size: 10em;
     position: relative;
-    top: -12%;
+    top: 50%;
     left: 20%;
+    height: auto;
+    margin: 0;
   }
 }
 

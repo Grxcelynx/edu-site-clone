@@ -1,6 +1,6 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
 }
@@ -16,9 +16,14 @@ nav {
 
 .logo {
     color: $purple;
+    background: linear-gradient(to right, $pink, $red, $purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 20px;
+    letter-spacing: .2em;
+    font-size: 1.5em;
+    font-family: $Robo;
+    font-weight: 300;
 }
 
 .navlinks {
@@ -26,6 +31,8 @@ nav {
     justify-content: space-around;
     width: 30%;
     overflow-x: hidden;
+    background-image: repeating-conic-gradient($pink 10%, $purple 20%);
+    opacity: 0.5;
 
 }
 
@@ -35,11 +42,11 @@ nav {
 }
 
 .navlinks a {
-    color: rgb(235, 5, 5);
+    color: white;
     text-decoration: none;
-    letter-spacing: 3px;
+    letter-spacing: .2em;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 1.5em;
 }
 
 .burger {
@@ -48,31 +55,35 @@ nav {
 }
 
 .burger div {
-    width: 25px;
+    width: 30px;
     height: 3px;
-    color: rgb(241, 19, 19);
-    background-color: blueviolet;
+    background-color: grey;
     margin: 5px;
     overflow-x: hidden;
 }
 
-@media  screen and (max-width: 1024px) {
+@media  screen and (min-width: 1024px) {
     .navlinks {
         width: 60%;
+        background-image:none;
+    }
+
+    .navlinks a {
+        color: grey;
     }
     
 }
 
-@media screen  and (max-width: 768px){
+@media (min-width: 768px) and (max-width: 1024px){
     body {
        overflow-x: hidden;
     }
     .navlinks {
         position: absolute;
         right: 0px;
-        height: 92vh;
+        height: 100%;
         top: 8vh;
-        background-color: aqua;
+        background-color: transparent;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -90,6 +101,11 @@ nav {
     .burger {
         display: block;
         overflow-x: hidden;
+    }
+
+    .logo {
+        letter-spacing: .2em;
+        font-size: 2em;
     }
 }
 
@@ -111,13 +127,13 @@ nav {
 }
 
 .toggle .line1 {
-    background-color: yellow;
+    background-color: $pink;
 }
 
 .toggle .line2 {
-    opacity: 0;
+    background-color: $purple;
 }
 
 .toggle .line3 {
-    background-color: brown;
+    background-color: $red;
 }
