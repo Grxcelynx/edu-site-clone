@@ -42,7 +42,6 @@ nav {
   width: 30%;
   overflow-x: hidden;
   background-image: repeating-conic-gradient(#d16391 10%, #73546f 20%);
-  opacity: 0.5;
 }
 
 .navlinks li {
@@ -71,17 +70,21 @@ nav {
   overflow-x: hidden;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .navlinks {
     width: 60%;
     background-image: none;
+    overflow-x: hidden;
   }
   .navlinks a {
     color: grey;
   }
+  * {
+    overflow-x: hidden;
+  }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   body {
     overflow-x: hidden;
   }
@@ -120,7 +123,7 @@ nav {
   }
   .logo {
     letter-spacing: .2em;
-    font-size: 2em;
+    font-size: 1.7em;
   }
 }
 
@@ -293,6 +296,8 @@ nav {
     font-weight: 200;
     color: white;
     font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
   }
   .SG2-2 {
     background-color: #73546f;
@@ -370,6 +375,8 @@ nav {
     font-weight: 200;
     color: white;
     font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
   }
   .SG2-2 {
     background-color: #73546f;
@@ -906,10 +913,12 @@ nav {
   font-size: 12em;
   font-weight: 600;
   padding: 0;
-  margin: 55% 0% 0% 0%;
+  margin: 0% 0% 0% 0%;
   text-align: center;
   color: white;
   height: auto;
+  top: 48%;
+  position: relative;
 }
 
 @media (min-width: 768px) and (max-width: 1199.87px) {
@@ -1033,6 +1042,7 @@ nav {
   font-size: 1em;
   text-align: left;
   line-height: 1.5em;
+  padding-bottom: 10%;
 }
 
 .SG7-2 {
@@ -1040,7 +1050,7 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh;
+  height: 30vh;
 }
 
 @media (min-width: 764px) and (max-width: 1199.87px) {
@@ -1051,6 +1061,13 @@ nav {
         grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
+  }
+  .SG7-2 {
+    background-image: url(./imgs/sec7-2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
   }
 }
 
@@ -1076,6 +1093,93 @@ nav {
   .SG7-1 p {
     font-size: 1.7em;
     line-height: 1.8em;
+    padding-bottom: 10%;
+  }
+  .SG7-2 {
+    background-image: url(./imgs/sec7-2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 53vh;
+  }
+}
+
+.fa {
+  padding: 5%;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3rem !important;
+}
+
+.fa-facebook {
+  border: 2px solid black;
+  color: transparent;
+  background-color: black;
+  text-decoration: none;
+}
+
+.fa-twitter {
+  background: transparent;
+  border: 2px solid black;
+  color: black;
+  text-decoration: none;
+}
+
+.fa-pinterest {
+  background: transparent;
+  border: 2px solid black;
+  color: black;
+  text-decoration: none;
+  font-size: 4rem !important;
+}
+
+.fa-instagram {
+  background: transparent;
+  border: 2px solid black;
+  color: black;
+  text-decoration: none;
+}
+
+.fas {
+  height: 10vh;
+  width: 100%;
+  font-size: 3rem !important;
+}
+
+.fa-arrow-right {
+  color: black;
+  font-size: 3rem !important;
+}
+
+.arrows {
+  height: 5vh;
+}
+
+.arrow-pink {
+  height: 5vh;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.media-icons {
+  height: 3vh;
+  margin: 0% 1% 0% 1%;
+}
+
+@media (min-width: 764px) and (max-width: 1199.87px) {
+  .media-icons {
+    height: 2vh;
+    margin: 0% 1% 0% 1%;
+  }
+}
+
+@media (min-width: 1199.88px) {
+  .media-icons {
+    height: 3vh;
+    margin: 0% 2% 0% 2%;
   }
 }
 /*# sourceMappingURL=style.css.map */

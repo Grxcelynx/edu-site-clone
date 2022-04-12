@@ -32,7 +32,7 @@ nav {
     width: 30%;
     overflow-x: hidden;
     background-image: repeating-conic-gradient($pink 10%, $purple 20%);
-    opacity: 0.5;
+    // opacity: 0.5;
 
 }
 
@@ -62,19 +62,24 @@ nav {
     overflow-x: hidden;
 }
 
-@media  screen and (min-width: 1024px) {
+@media  screen and (min-width: 1025px) {
     .navlinks {
         width: 60%;
         background-image:none;
+        overflow-x: hidden;
     }
 
     .navlinks a {
         color: grey;
     }
+
+    * {
+        overflow-x: hidden;
+    }
     
 }
 
-@media (min-width: 768px) and (max-width: 1024px){
+@media (max-width: 1024px){
     body {
        overflow-x: hidden;
     }
@@ -105,7 +110,7 @@ nav {
 
     .logo {
         letter-spacing: .2em;
-        font-size: 2em;
+        font-size: 1.7em;
     }
 }
 

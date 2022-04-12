@@ -29,6 +29,8 @@
     font-size: 1em;
     text-align: left;
     line-height: 1.5em;
+    padding-bottom: 10%;
+
 }
 
 .SG7-2 {
@@ -36,7 +38,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
+    height: 30vh;
 }
 
 @media (min-width: 764px) and (max-width: 1199.87px) {
@@ -45,6 +47,14 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
+    }
+
+    .SG7-2 {
+        background-image: url(./imgs/sec7-2.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30vh;
     }
 }
 
@@ -72,5 +82,14 @@
     .SG7-1 p {
         font-size: 1.7em;
         line-height: 1.8em;
+        padding-bottom: 10%;
+    }
+
+    .SG7-2 {
+        background-image: url(./imgs/sec7-2.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 53vh;
     }
 }
