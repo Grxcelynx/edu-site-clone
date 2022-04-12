@@ -351,8 +351,8 @@ nav {
     display: grid;
     -ms-grid-columns: 25% 50% 25%;
         grid-template-columns: 25% 50% 25%;
-    -ms-grid-rows: 30vh;
-        grid-template-rows: 30vh;
+    -ms-grid-rows: 70vh;
+        grid-template-rows: 70vh;
     grid-gap: 0%;
     position: relative;
     -webkit-box-pack: center;
@@ -420,7 +420,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30vh;
+    height: 70vh;
   }
 }
 
@@ -848,16 +848,16 @@ nav {
     height: 25vh;
   }
   .SG5-2 {
-    padding: 10%;
+    padding: 5%;
   }
   .SG5-2 h2 {
     font-size: 2.8em;
-    top: 20%;
+    top: 2%;
     position: relative;
   }
   .SG5-2 button {
     left: 17%;
-    top: 20%;
+    top: 1%;
     position: relative;
   }
   .SG5-5 {
@@ -975,8 +975,8 @@ nav {
     display: grid;
     -ms-grid-columns: 38% 62%;
         grid-template-columns: 38% 62%;
-    -ms-grid-rows: 44vh;
-        grid-template-rows: 44vh;
+    -ms-grid-rows: 80vh;
+        grid-template-rows: 80vh;
     grid-gap: 0%;
     position: relative;
     -webkit-box-pack: center;
@@ -994,7 +994,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 44vh;
+    height: 80vh;
   }
   .SG6-1 h2 {
     font-size: 3.8em;
@@ -1068,7 +1068,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 58vh;
+    height: 60vh;
   }
 }
 
@@ -1101,7 +1101,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 68vh;
+    height: 100vh;
   }
 }
 

@@ -141,7 +141,7 @@
     .section2 .container{
         display: grid;
         grid-template-columns: 25% 50% 25%;
-        grid-template-rows: 30vh;
+        grid-template-rows: 70vh;
         grid-gap: 0%;
         position: relative;
         justify-content: center;
@@ -213,7 +213,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 30vh;
+        height: 70vh;
     }
 
 }
