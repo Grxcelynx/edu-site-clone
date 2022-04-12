@@ -115,7 +115,7 @@
     .container6{
         display: grid;
         grid-template-columns: 38% 62%;
-        grid-template-rows: 40vh;
+        grid-template-rows: 44vh;
         grid-gap: 0%;
         position: relative;
         justify-content: center;
@@ -134,7 +134,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 40vh;
+        height: 44vh;
     }
     
     .SG6-1 h2 {
@@ -145,12 +145,13 @@
         font-size: 1.3em;
         line-height: 1.6em;
         margin: 10% 0% 0% 0%;
+        
     }
 
     .SG6-2 h1 {
         font-size: 10em;
         position: relative;
-        top: -12%;
+        top: 50%;
         left: 20%;
     
     }

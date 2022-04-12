@@ -178,6 +178,7 @@ nav {
   background-position-x: 40%;
   height: 70vh;
   position: relative;
+  overflow-x: hidden;
 }
 
 .section1 div {
@@ -974,8 +975,8 @@ nav {
     display: grid;
     -ms-grid-columns: 38% 62%;
         grid-template-columns: 38% 62%;
-    -ms-grid-rows: 40vh;
-        grid-template-rows: 40vh;
+    -ms-grid-rows: 44vh;
+        grid-template-rows: 44vh;
     grid-gap: 0%;
     position: relative;
     -webkit-box-pack: center;
@@ -993,7 +994,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40vh;
+    height: 44vh;
   }
   .SG6-1 h2 {
     font-size: 3.8em;
@@ -1006,7 +1007,7 @@ nav {
   .SG6-2 h1 {
     font-size: 10em;
     position: relative;
-    top: -12%;
+    top: 50%;
     left: 20%;
   }
 }
@@ -1067,7 +1068,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 32vh;
+    height: 42vh;
   }
 }
 
@@ -1100,7 +1101,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 53vh;
+    height: 68vh;
   }
 }
 
