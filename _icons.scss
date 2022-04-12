@@ -71,12 +71,31 @@
     margin: 0% 1% 0% 1%;
 
   }
+
+  .arrows {
+    height: 3vh;
+  }
+  
+  .arrow-pink {
+    height: 3vh;
+    transform: rotate(90deg);
+  }
+
 }
 
 @media (min-width: 1199.88px) {
   .media-icons {
     height: 3vh;
     margin: 0% 2% 0% 2%;
+  }
+
+  .arrows {
+    height: 4vh;
+  }
+  
+  .arrow-pink {
+    height: 4vh;
+    transform: rotate(90deg);
   }
 
 }
