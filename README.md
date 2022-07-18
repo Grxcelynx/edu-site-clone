@@ -7,7 +7,7 @@ A template for a College, Bootcamp, orSchool Blog site.
 * [About The Developer](#about)
 * [Connect](#connect)
 
-# <img src="https://github.com/Grxcelynx/travel-site/blob/main/GitHub%20imgs/site-vids%20(3).gif" >
+# <img src="https://github.com/Grxcelynx/edu-site-clone/blob/main/GitHub%20Gifs/site-vids%20(4).gif" >
 
 ## <a name="stack" ></a>Tech Stack
 * Backend: PHP | JavaScript
