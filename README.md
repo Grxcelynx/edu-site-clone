@@ -10,7 +10,7 @@ https://grxcelynx.github.io/edu-site-clone/
 * [About The Developer](#about)
 * [Connect](#connect)
 
-# <img src="https://github.com/Grxcelynx/edu-site-clone/blob/main/GitHub%20Gifs/site-vids%20(4).gif" >
+ <img src="https://github.com/Grxcelynx/edu-site-clone/blob/main/GitHub%20Gifs/site-vids%20(4).gif" >
 
 ## <a name="stack" ></a>Tech Stack
 * Backend: JavaScript
