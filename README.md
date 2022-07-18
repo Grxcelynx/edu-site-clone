@@ -10,7 +10,7 @@ A template for a College, Bootcamp, orSchool Blog site.
 # <img src="https://github.com/Grxcelynx/edu-site-clone/blob/main/GitHub%20Gifs/site-vids%20(4).gif" >
 
 ## <a name="stack" ></a>Tech Stack
-* Backend: N/A
+* Backend: JavaScript
 * Frontend: HTML | CSS | SASS
 
 ## <a name="about" ></a> About Grace
