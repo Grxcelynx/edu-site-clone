@@ -2,6 +2,9 @@
 
 A template for a College, Bootcamp, orSchool Blog site.
 
+# View Live Template :
+https://grxcelynx.github.io/edu-site-clone/
+
 ## Contents 
 * [Tech Stack](#stack)
 * [About The Developer](#about)
