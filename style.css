@@ -732,17 +732,49 @@ nav {
   }
 }
 
+.container5 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  grid-gap: 0%;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .SG5-1 {
   background-image: url(./imgs/sec5-1.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 30vh;
+  height: auto;
 }
 
 .SG5-2 {
   background-color: #73546f;
   padding: 20%;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.SG5-2 button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0% auto;
+  color: white;
+  background-color: #d16391;
+  border: none;
+  font-size: 1.2em;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  padding: 2%;
 }
 
 .SG5-2 h2 {
@@ -752,21 +784,6 @@ nav {
   font-family: "lora; serif";
   font-weight: 200;
   text-transform: uppercase;
-}
-
-.SG5-2 button {
-  color: white;
-  background-color: #d16391;
-  border: none;
-  font-size: 1.2em;
-  font-family: "Open Sans", sans-serif;
-  text-transform: uppercase;
-  padding: 4% 8% 4% 8%;
-  margin: 5% 0% 0% 0%;
-  position: relative;
-  justify-items: center;
-  text-align: center;
-  left: 22%;
 }
 
 .SG5-3 {
@@ -795,19 +812,6 @@ nav {
 }
 
 @media (min-width: 768px) and (max-width: 1199.87px) {
-  .container5 {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    grid-gap: 0%;
-    position: relative;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
   .container5 div {
     height: 38vh;
   }
@@ -1012,6 +1016,15 @@ nav {
   }
 }
 
+.container7 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+}
+
 .SG7-1 {
   padding: 20% 10% 20% 10%;
   color: white;
@@ -1019,7 +1032,8 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: left;
+  background-position-x: left 30%;
+  height: auto;
 }
 
 .SG7-1 h3 {
@@ -1047,40 +1061,14 @@ nav {
 }
 
 .SG7-2 {
+  height: auto;
+  width: auto;
   background-image: url(./imgs/sec7-2.jpeg);
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30vh;
-}
-
-@media (min-width: 764px) and (max-width: 1199.87px) {
-  .container7 {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 1fr;
-        grid-template-rows: 1fr;
-  }
-  .SG7-2 {
-    background-image: url(./imgs/sec7-2.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 60vh;
-  }
 }
 
 @media (min-width: 1199.88px) {
-  .container7 {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 1fr;
-        grid-template-rows: 1fr;
-  }
   .SG7-1 {
     padding: 20% 10% 20% 10%;
   }
@@ -1095,13 +1083,6 @@ nav {
     font-size: 1.7em;
     line-height: 1.8em;
     padding-bottom: 10%;
-  }
-  .SG7-2 {
-    background-image: url(./imgs/sec7-2.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
   }
 }
 

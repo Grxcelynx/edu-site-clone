@@ -1,14 +1,35 @@
+.container5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0%;
+    position: relative;
+    justify-content: center;
+}
 .SG5-1 {
     background-image: url(./imgs/sec5-1.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 30vh;
+    height: auto;
 }
 
 .SG5-2 {
     background-color: $purple;
     padding: 20%;
+    text-align: center;
+    align-items: center;
+    button {
+        align-items: center;
+        margin: 0% auto;
+        color: $primary;
+        background-color: $pink;
+        border: none;
+        font-size: 1.2em;
+        font-family: $Sans;
+        text-transform: uppercase;
+        padding: 2%;
+    }
 }
 
 .SG5-2 h2 {
@@ -18,21 +39,6 @@
     font-family: $Serif;
     font-weight: 200;
     text-transform: uppercase;
-}
-
-.SG5-2 button {
-    color: $primary;
-    background-color: $pink;
-    border: none;
-    font-size: 1.2em;
-    font-family: $Sans;
-    text-transform: uppercase;
-    padding: 4% 8% 4% 8%;
-    margin: 5% 0% 0% 0%;
-    position: relative;
-    justify-items: center;
-    text-align: center;
-    left: 22%;
 }
 
 .SG5-3 {
@@ -61,14 +67,7 @@
 }
 
 @media (min-width:768px) and (max-width:1199.87px){
-    .container5 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-gap: 0%;
-        position: relative;
-        justify-content: center;
-    }
+  
 
     .container5 div {
         height: 38vh;

@@ -1,3 +1,9 @@
+.container7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
 .SG7-1 {
     padding: 20% 10% 20% 10%;
     color: $primary;
@@ -5,7 +11,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: left;
+    background-position-x: left 30%;
+    height: auto;
 }
 
 .SG7-1 h3 {
@@ -34,37 +41,17 @@
 }
 
 .SG7-2 {
+    height: auto;
+    width: auto;
     background-image: url(./imgs/sec7-2.jpeg);
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30vh;
+
 }
 
-@media (min-width: 764px) and (max-width: 1199.87px) {
-
-    .container7 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-    }
-
-    .SG7-2 {
-        background-image: url(./imgs/sec7-2.jpeg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 60vh;
-    }
-}
 
 @media (min-width: 1199.88px) {
 
-    .container7 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-    }
 
     .SG7-1 {
         padding: 20% 10% 20% 10%;
@@ -83,13 +70,5 @@
         font-size: 1.7em;
         line-height: 1.8em;
         padding-bottom: 10%;
-    }
-
-    .SG7-2 {
-        background-image: url(./imgs/sec7-2.jpeg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
     }
 }
